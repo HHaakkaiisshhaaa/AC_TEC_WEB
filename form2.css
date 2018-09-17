@@ -20,7 +20,7 @@ form button{
 }
 
 body{
-    background: url(fundo6.jpg);
+    background: url(fundo6.jpg) no-repeat;
     background-size: cover
 }
 
