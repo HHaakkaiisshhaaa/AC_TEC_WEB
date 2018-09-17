@@ -1,0 +1,45 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="form1.css" />
+    
+</head>
+<body>
+    <form method="POST" id="Contato" action="">
+
+        <fieldset id="usuario"> <legend><b>Formulário de Contato</b></legend> 
+
+            <p><label for="cnome"><b> Nome:</b><br></label><input type= "text" nome="tnome" id="cnome" size="60" maxlength="100" placeholder= "Nome Completo" required values=" "/> <br></p>
+            
+            <p><label for="input_email"><b>E-mail:</b><br></label><input type="email"nome="email"  id="input_email" size ="60" max="100" placeholder="exemplo@exemplo.com"  required values=" "/> <br></p>
+
+            <fieldset id= "amsg"><legend><b> Assunto da mensagem:</legend></b>
+
+            <p><select name="msg" id="adamsg">
+                <option>Selecione</option>
+                <option >Bug</option>
+                <option >Reclamação</option>
+                <option >Sugestão</option></select></p>
+
+            </fieldset>  
+
+            <p><label for="input_mensagem"><b>Mensagem:</b></label><br> 
+            <textarea cols=55 id="input_mensagem" rows="10" name="Mensagem" maxlength="500" wrap="hard" placeholder="Digite sua Mensagem:" required values= "" ></textarea><br></p>
+
+            <fieldset id = "palavra" > <legend>Palavra chave:</legend>  </b><br></p>
+            <input nome="palavra chave" type="checkbox" value="PL"/>Problema
+            <input nome="palavra chave" type="checkbox" value="TC"/>Tecnologia
+            <input nome="palavra chave" type="checkbox" value="IPCT"/>Impacta
+            <input nome="palavra chave" type="checkbox" value="EM"/>E-mail
+            <input nome="palavra chave" type="checkbox" value="SE"/>Sei-lá
+            </fieldset>
+           <p>
+           <button nome="button">Enviar</button>
+           </p>
+    </form>
+        </fieldset>
+</body>
+</html>

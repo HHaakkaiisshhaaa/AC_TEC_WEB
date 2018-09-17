@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Formulario 02</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="form2.css" />
+    <link rel="stylesheet" href="dark-blue-abstracts-4.jpg">
+
+</head>
+<body>
+    
+    
+    <form action=" " method="POST" action="">
+
+
+        <fieldset id="usuario"> <legend><b>Formulário de Contato</b></legend> 
+        <p><label for="input_nome" ><b>Nome:</b></label><br/>
+        <input nome="nome" id="input_nome"  type="text" size="50" maxlength="100" required value="" placeholder="Nome Completo"/></p>
+
+
+        <p><label for="input_idade" number ><b>Idade:</b></label><br/>
+        <input type="number" id="input_idade"  required value=" " placeholder="selecione idade" /></p>
+
+        <p><b>Sexo:</b><br>
+        <select name="Sexo" required value=" ">
+         <option value="M">Masculino</option>
+         <option value="F">Feminino</option>  
+        </select><br></p>
+
+        <p><b>Curso:</b><br>
+         <select name="Curso" required>
+         <option value="S">Selecione</option>    
+         <option value="A">HTML</option>
+         <option value="G">Python</option>
+         <option value="B">SQL</option>
+         <option value="B">Android</option>   
+        </select><br></p>
+
+        <p><label for="input_email" ><b>E-mail</b></label><br/>
+        <input type="email"nome="email" placeholder="impacta.edu@gmail.com" id="input_email" max="100" required value=" "/><br/></p>
+
+       <div class= colorbaixo> <p><b>Telefone/DDD</b><br>
+        <input type="tel" placeholder="(00) 0000-00000"><br/></p>
+
+        <p><b>Clik sobre a cor do Crachá:</b><br>
+        <input  type="color" id="head" name="color"value="##FF0000" /><br/></p>
+    
+       <div class="corgit"><p> <a href="https://github.com/github"><b>GitHub</b></a><br/></p>
+        </div>
+
+        <p><b>Data de Ingresso:</b><br>
+        <input type="date"><p>
+
+        <p><button name="button" >Salve</button></p>
+    </div>
+    </form>
+    </fieldset>
+
+</body>
+</html>

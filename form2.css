@@ -1,0 +1,51 @@
+form {
+   
+    margin: 10px;
+    width: 400px;
+    padding: 1em;
+    border: 1px groove white;
+    background: black transparent;
+    border-radius:  1em;
+    color: black;
+}
+
+form button{
+    
+    background-color: gray;
+    color: aliceblue;
+    padding: 7px;
+    padding-right: 50px;
+    text-align: center;
+    
+}
+
+body{
+    background: url(fundo6.jpg);
+    background-size: cover
+}
+
+input{
+    text-align: center;
+
+    
+}
+
+select{
+    text-align: center;
+    
+}
+
+textarea{
+    text-align: center;
+
+}
+
+.colorbaixo{
+    color: white;
+}
+
+.corgit{
+    background: white;
+    text-align: center;
+    
+}
